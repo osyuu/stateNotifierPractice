@@ -1,7 +1,7 @@
 
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:state_notifier_practice/jokes/jokes_repository.dart';
-import 'package:state_notifier_practice/models/joke_model.dart';
+import 'package:state_notifier_practice/data/repository/jokes_repository.dart';
+import 'package:state_notifier_practice/data/model/joke_model.dart';
 
 //* Logic / StateNotifier
 final jokesNotifierProvider = AsyncNotifierProvider.autoDispose<JokesNotifier, JokeModel?>(

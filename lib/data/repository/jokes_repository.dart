@@ -1,7 +1,7 @@
 
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:state_notifier_practice/models/joke_model.dart';
+import 'package:state_notifier_practice/data/model/joke_model.dart';
 
 //* Repository
 final jokesRepositoryProvider = Provider<IJokesRepository>(

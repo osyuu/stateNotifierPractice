@@ -1,5 +1,5 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:state_notifier_practice/models/joke_model.dart';
+import 'package:state_notifier_practice/data/model/joke_model.dart';
 
 part 'jokes_state.freezed.dart';
 
